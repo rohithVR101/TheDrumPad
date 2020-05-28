@@ -1,0 +1,96 @@
+body {
+    margin: 3rem;
+    text-align: center;
+    background-color: #222831;
+}
+
+h1 {
+    font-family: 'Permanent Marker',
+        cursive;
+    font-size: 3rem;
+    color: #eaeaea;
+
+}
+.set {
+    padding: 3rem;
+    align-items: center;
+    position: absolute;
+    margin-top: 3%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+@media (max-width: 500px) {
+    .set {
+        padding: 3rem;
+        align-items: center;
+        position: absolute;
+        margin-top: 40%;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+    }
+}
+
+
+.drum {
+    border: 2px solid #404B69;
+    border-radius: 0.3rem;
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: #ff2e63;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #00adb5;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.bass {
+    background: rgb(255, 204, 0);
+    background: radial-gradient(circle, rgba(255, 153, 0, 1) 0%, rgb(255, 123, 0) 100%, rgb(255, 123, 0) 100%);
+}
+
+.cymbal {
+    background: rgb(220, 241, 5);
+    background: radial-gradient(circle, rgba(220, 241, 5, 1) 0%, rgba(118, 206, 1, 1) 100%);
+}
+
+.tom {
+    background: rgb(0, 215, 246);
+    background: radial-gradient(circle, rgba(0, 215, 246, 1) 0%, rgba(0, 156, 229, 1) 100%);
+}
+
+.hihat {
+    background: rgb(251, 252, 98);
+    background: radial-gradient(circle, rgb(255, 196, 0) 0%, yellow 100%);
+}
+
+.snare {
+    background: rgb(249, 108, 138);
+    background: radial-gradient(circle, rgba(249, 108, 138, 1) 0%, rgba(234, 52, 107, 1) 100%);
+}
